@@ -1,8 +1,5 @@
 #!/bin/bash
 
-pkg install php openssh curl wget unstable-repo -y
-pkg install metasploit -y
-
 trap 'printf "\n";stop' 2
 
 banner() {
